@@ -280,10 +280,10 @@ Final, top 10 most important features:
 ![Top 10 feature importances](output-images/top%2010%20feature%20importances.png)
 
 #### Heatmaps
-Plotly feature correlation matrix (**see Colab link for readable, interactive version!**):
+Plotly feature correlation matrix (**see Colab link for interactive version**):
 ![Plotly correlation matrix](output-images/plotly%20corr%20matrix.png)
 
-Seaborn feature correlation matrix (**see Colab link for readable version!**):
+Seaborn feature correlation matrix:
 ![Seaborn correlation matrix](output-images/sns%20corr%20matrix.png)
 
 ### 8. Discussion and Conclusion
@@ -294,6 +294,7 @@ These findings emphasize the importance of ordinal encoding in producing valid p
 
 #### Challenges
 The majority of time spent on this project was during the scraping and preprocessing phase. Scraping from both SimplyHired and Glassdoor proved hugely challenging because the website structures were entirely different, no not only were the two scraping scripts separately adapted to the site layouts, but the methods of data ingestion and data integration were sometimes different (info on this detailed in the Data Cleaning section.)
+
 Training the models to predict standardized salary was also difficult; although there are some things I did not attempt, I was not able to get the mean absolute error below $25,000 USD. Random Forest heavily overfit, and was easily able to attain over 90% accuracy on training data, but only about 40% on test data. Gradient Boosting barely overfit at all, but its test accuracy was comparable to Random Forest (before hyperparameter tuning, which boosted performance by about 4%).
 
 #### Future Recommendations
