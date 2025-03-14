@@ -311,6 +311,7 @@ Seaborn feature correlation matrix:
 #### Project Findings
 Ultimately, the top 10 most important features for salary were:
 - `state_CA, job_level, state_WA, standardized_title_Research Scientist, Skills_Machine Learning, experience_level, Skills_English, education level, standardized_title_Software Developer, Skills_Big data`
+
 These findings emphasize the importance of ordinal encoding in producing valid predictors: `job_level`, `experience_level`, and `education_level` were all inferred using keywords from each posting, and assigned a corresponding integer value where available. These were instrumental in getting model performance as high as it was.
 
 #### Challenges
