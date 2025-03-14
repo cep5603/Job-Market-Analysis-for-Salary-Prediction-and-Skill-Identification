@@ -246,7 +246,7 @@ Final learning parameters found:
 - Software Engineer: C#, SQL, English, writing skills, ASP.NET
 - Other Engineering: SQL, English, CSS, AI, computer vision
 - Software Developer: SQL, CSS, Oracle, HTML, Go
-- Research Scientist: C, English, computer vision, data structures
+- Research Scientist: C, English, computer vision, data structures, C++
 
 ### 7. Visualization
 #### Histograms
