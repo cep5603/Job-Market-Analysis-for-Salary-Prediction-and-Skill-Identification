@@ -65,12 +65,14 @@ Python libraries:
 - Selenium
 - Chrome Webdriver Manager
 - Beautiful Soup
+
 #### Data Sources
 Glassdoor:
 - https://www.glassdoor.com/Job/united-states-software-engineer-jobs-SRCH_IL.0,13_KO14,31.htm
 - https://www.glassdoor.com/Job/united-states-software-developer-jobs-SRCH_IL.0,13_IN1_KO14,32.htm
 - https://www.glassdoor.com/Job/united-states-data-scientist-jobs-SRCH_IL.0,13_IN1_KO14,28.htm
 - https://www.glassdoor.com/Job/united-states-computer-scientist-jobs-SRCH_IL.0,13_IN1_KO14,32.htm
+
 SimplyHired:
 - https://www.simplyhired.com/search?q=software+engineer&l=
 - https://www.simplyhired.com/search?q=software+developer&l=
@@ -241,46 +243,49 @@ Salary distribution by job role (**see Colab link for interactive version**):
 Some observations:
 - The "Scientist" roles are almost universally above the median wage.
 - The "Other Engineering" and "Software Developer" roles are almost entirely below the median wage.
-![[salary distribution for top 10 job roles.png]]
+![Salary distribution for top 10 job roles](output-images/salary%20distribution%20for%20top%2010%20job%20roles.png)
+
 #### Boxplots
 Salary distribution by standardized job title (**see Colab link for interactive version**):
-![[salary distribution by standardized title.png]]
+![Salary distribution by standardized title](output-images/salary%20distribution%20by%20standardized%20title.png)
 
 Salary distribution by job level (**see Colab link for interactive version**):
 - 1 = Junior/entry level
 - 2 = Mid-level
 - 3 = Senior level
-![[salary distribution by job level.png]]
+![Salary distribution by job level](output-images/salary%20distribution%20by%20job%20level.png)
 
 Salary distribution by education level (**see Colab link for interactive version**):
 - 1 = Associate's
 - 2 = Bachelor's
 - 3 = Master's
 - 4 = PhD
-![[salary distribution by education level.png]]
+![Salary distribution by education level](output-images/salary%20distribution%20by%20education%20level.png)
+
 #### Map
 Average Salary By State (**see Colab link for interactive version**):
 - California, Washington, and Maryland have the highest average salaries
 	- (Nebraska has only a few entries that skew the salary significantly)
 - West Virginia and Louisiana have the average lowest salaries
-![[average salary by state.png]]
+![Average salary by state](output-images/average%20salary%20by%20state.png)
 
 #### Bar Plots
 Top 5 skills by salary impact across 5 different job roles:
-![[top 5 skills by salary impact across top 5 job roles.png]]
+![Top 5 skills by salary impact across top 5 job roles](output-images/top%205%20skills%20by%20salary%20impact%20across%20top%205%20job%20roles.png)
 
 RMSE comparison of different models (final dataset, pre-hyperparameter tuning):
-![[rmse comparison.png]]
+![RMSE comparison](output-images/rmse%20comparison.png)
 
 Final, top 10 most important features:
-![[top 10 feature importances.png]]
+![Top 10 feature importances](output-images/top%2010%20feature%20importances.png)
 
 #### Heatmaps
 Plotly feature correlation matrix (**see Colab link for readable, interactive version!**):
-![[plotly corr matrix.png]]
+![Plotly correlation matrix](output-images/plotly%20corr%20matrix.png)
 
 Seaborn feature correlation matrix (**see Colab link for readable version!**):
-![[sns corr matrix.png]]
+![Seaborn correlation matrix](output-images/sns%20corr%20matrix.png)
+
 ### 8. Discussion and Conclusion
 #### Project Findings
 Ultimately, the top 10 most important features for salary were:
