@@ -315,7 +315,7 @@ Ultimately, the top 10 most important features for salary were:
 These findings emphasize the importance of ordinal encoding in producing valid predictors: `job_level`, `experience_level`, and `education_level` were all inferred using keywords from each posting, and assigned a corresponding integer value where available. These were instrumental in getting model performance as high as it was.
 
 #### Challenges
-The majority of time spent on this project was during the scraping and preprocessing phase. Scraping from both SimplyHired and Glassdoor proved hugely challenging because the website structures were entirely different, no not only were the two scraping scripts separately adapted to the site layouts, but the methods of data ingestion and data integration were sometimes different (info on this detailed in the Data Cleaning section.)
+The majority of time spent on this project was during the scraping and preprocessing phase. Scraping from both SimplyHired and Glassdoor proved hugely challenging because the website structures were entirely different, so not only were the two scraping scripts separately adapted to the site layouts, but the methods of data ingestion and data integration were sometimes different (info on this detailed in the Data Cleaning section).
 
 Training the models to predict standardized salary was also difficult; although there are some things I did not attempt, I was not able to get the mean absolute error below $25,000 USD. Random Forest heavily overfit, and was easily able to attain over 90% accuracy on training data, but only about 40% on test data. Gradient Boosting barely overfit at all, but its test accuracy was comparable to Random Forest (before hyperparameter tuning, which boosted performance by about 4%).
 
@@ -324,3 +324,4 @@ Future avenues for improving model performance include:
 - Review of feature engineering techniques, including implementation of PCA
 	- Reduction in state/job title features
 - Wider training/test dataset
+	- Train on datasets from SimplyHired/Glassdoor separately (differing methods of data ingestion/integration might cause learning artifacts)
