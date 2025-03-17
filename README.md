@@ -169,7 +169,8 @@ Various standardized features on salary, education/experience/job level, and one
 3900 job entries (before preprocessing) with 68 columns (you can see how it performs with fewer features by more strictly selecting skills).
 
 ##### Attributes to model
-Number of estimarors: `100`
+Number of estimators: `100`
+
 Random state: `12345`
 
 ##### Performance on training data
